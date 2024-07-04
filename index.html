@@ -14,29 +14,28 @@
     <div class="container" id="parent">
         <div class="row">
             <!--First colomn-->
-            <div class="col-6" id="one">
+            <div class="col-sm-12 col-md-12 col-lg-6" id="one">
                 <h1>Welcome Back</h1> <!-- with logo in right -->
-                <button class="btn btn-primary">Login with 42</button>
-                <hr>
-                <div>
-                    <label for="un"></label>
-                    <p>User Name:</p>
-                    <input type="text" placeholder="User name" id="un">
-                </div>
-                <div>
-                    <label for="psw"></label>
-                    <p>Password:</p>
-                    <input type="password" name="" id="psw" placeholder="Password">
+                <div class="d-grid gap-2">
+                    <button class="btn btn-outline-secondary">Login with 42</button>
                 </div>
                 <hr>
-                <div>
-                    <button class="btn btn-primary">Log in</button>
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" placeholder="Username" id="floatingInput">
+                    <label for="floatingInput">USERNAME</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="password" class="form-control" name="" id="psw" placeholder="Password">
+                    <label for="psw">PASSWORD</label>
+                </div>
+                <div class="d-grid gap-2">
+                    <button class="btn btn-outline-success mb-3">Log in</button>
                 </div>
                 <p>Don't have an account? <a href="">Signup</a></p>
             </div>
-            <!--Second colomn-->
-            <div class="col-6"  id="two">
-                <img src="pingpong.avif" alt="ping-pong image" id="image" class="img-fluid">
+                    <!--Second colomn-->
+            <div class="col-sm-12 col-md-12 col-lg-6"  id="two">
+                <img src="login-picture.png" alt="ping-pong image" id="image" class="img-fluid">
             </div>
         </div>
     </div>

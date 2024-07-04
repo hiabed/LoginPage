@@ -11,7 +11,7 @@ button {
 
 #one {
     /* margin: auto; */
-    padding-top: 60px;
+    padding: 30px;
     box-shadow: 0px 0px 10px yellow;
     background-color: rgb(224, 218, 218);
 }
