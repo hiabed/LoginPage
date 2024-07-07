@@ -25,8 +25,6 @@ h1 {
 body {
     background: rgb(2,0,36);
     background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(2,0,36,1) 30%, rgba(119,0,255,1) 50%, rgba(29,0,39,1) 70%, rgba(9,9,121,1) 100%);
-    /* background-image: url("Untitled.png");
-    background-size: cover; */
     color: white;
     font-family: sans-serif;
 }
@@ -54,7 +52,8 @@ a {
 
 #one {
     box-shadow: 0px 0px 20px black;
-    padding: 60px;
+    padding: 140px 60px;
+
 }
 
 #two {
@@ -71,6 +70,8 @@ a {
     padding: 10%;
 }
 
+
+
 #no-account {
     text-align: center;
 }
@@ -78,7 +79,7 @@ a {
 #three {
     display: none;
     box-shadow: 0px 0px 20px rgb(39, 37, 37);
-    padding: 40px;
+    padding: 60px;
 }
 
 #hand {
@@ -86,6 +87,7 @@ a {
     transform: rotate(42deg);  
     animation: fr 1s infinite;
 }
+
 @keyframes fr {
     0%{
         transform: rotate(42deg);  
@@ -101,9 +103,8 @@ a {
 }
 
 @media (max-width: 768px) {
-    /* Your CSS styles for phones */
     #two {
-        display: none; /* Example adjustment for readability on tablets */
+        display: none;
     }
 }
 
