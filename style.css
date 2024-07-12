@@ -1,5 +1,6 @@
 h1 {
     text-align: center;
+    font-family: 'Games', sans-serif;
 }
 
 .icon {
@@ -11,10 +12,12 @@ h1 {
     color: white;
     background-color: rgb(35, 21, 70);
     border: none;
+    
 }
 
 ::placeholder {
-    color: whitesmoke !important;
+    color: rgb(177, 177, 177) !important;
+    
 }
 
 .input-group-left {
@@ -26,17 +29,20 @@ body {
     background: rgb(2,0,36);
     background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(2,0,36,1) 30%, rgba(119,0,255,1) 50%, rgba(29,0,39,1) 70%, rgba(9,9,121,1) 100%);
     color: white;
-    font-family: sans-serif;
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: bold;
     height: 100vh;
     overflow: hidden;
 }
 
 .login {
     background: #0197d0 !important;
+    font-family: 'Games', sans-serif;
 }
 
 .intra {
     background-color: grey;
+    font-family: 'Games', sans-serif;
 }
 
 .login:hover, .intra:hover {
@@ -55,7 +61,6 @@ a {
 #one {
     box-shadow: 0px 0px 20px black;
     padding: 140px 60px;
-
 }
 
 #two {
@@ -77,6 +82,8 @@ a {
 
 #no-account {
     text-align: center;
+    font-family: 'popins';
+    font-weight: lighter;
 }
 
 #three {
@@ -90,6 +97,8 @@ a {
     transform: rotate(42deg);  
     animation: fr 1s infinite;
 }
+
+
 
 @keyframes fr {
     0%{
