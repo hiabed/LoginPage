@@ -12,12 +12,10 @@ h1 {
     color: white;
     background-color: rgb(35, 21, 70);
     border: none;
-    
 }
 
 ::placeholder {
     color: rgb(177, 177, 177) !important;
-    
 }
 
 .input-group-left {
