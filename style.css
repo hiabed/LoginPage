@@ -92,11 +92,9 @@ a {
 
 #hand {
     /* 67 42 */
-    transform: rotate(42deg);  
+    transform: rotate(42deg);
     animation: fr 1s infinite;
 }
-
-
 
 @keyframes fr {
     0%{
